@@ -1,0 +1,7 @@
+source,target,flow,mission
+resident,dispatcher,Адрес и описание проблемы,intake
+dispatcher,requests,Карточка заявки и приоритет,intake
+requests,uk,Заявка в работу,intake
+uk,requests,Назначение и результат,processing
+requests,dispatcher,Очередь и статус заявки,processing
+dispatcher,resident,Номер и статус заявки,response
